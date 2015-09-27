@@ -6,7 +6,7 @@
         "psr-0": {"FactorialTools\\Composer": "src/"}
     },
     "extra": {
-        "class": "FactorialTools\\Composer\\InstallerPlugin"
+        "class": "FactorialTools\\Composer\\ToolsInstallerPlugin"
     },
     "require": {
         "composer-plugin-api": "1.0.0"
