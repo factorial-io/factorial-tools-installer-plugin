@@ -12,7 +12,7 @@ class ToolsInstaller extends LibraryInstaller
      */
     public function getPackageBasePath(PackageInterface $package)
     {
-        return '_tools/'.package->getPrettyName();
+        return '_tools/'.$package->getPrettyName();
     }
 
     /**
