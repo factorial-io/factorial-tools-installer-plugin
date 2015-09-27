@@ -1,0 +1,14 @@
+{
+    "name": "factorial-io/factorial-tools-installer-plugin",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-0": {"FactorialTools\\Composer": "src/"}
+    },
+    "extra": {
+        "class": "FactorialTools\\Composer\\InstallerPlugin"
+    },
+    "require": {
+        "composer-plugin-api": "1.0.0"
+    }
+}
