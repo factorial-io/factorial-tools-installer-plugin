@@ -14,7 +14,7 @@ class ToolsInstaller extends LibraryInstaller
   {
     $needed_prefix = 'factorial-io/';
     $prefix = substr($package->getPrettyName(), 0, strlen($needed_prefix));
-    if (needed_prefix !== $prefix) {
+    if ($needed_prefix !== $prefix) {
       throw new \InvalidArgumentException(
         'Unable to install factorial-tool. It'
         .'should always start its package name with '
