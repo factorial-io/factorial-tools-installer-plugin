@@ -10,7 +10,7 @@ class ToolsInstaller extends LibraryInstaller
   /**
    * {@inheritDoc}
    */
-  public function getPackageBasePath(PackageInterface $package)
+  public function getInstallPath(PackageInterface $package)
   {
     $needed_prefix = 'factorial-io/';
     $prefix = substr($package->getPrettyName(), 0, strlen($needed_prefix));
